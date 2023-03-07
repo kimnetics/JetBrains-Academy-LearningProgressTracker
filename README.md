@@ -8,9 +8,9 @@ This project is a command line application that allows the user to add students 
 
 The application also does some summarization and statistical calculations against the entered data.
 
-This project introduced Gradle. It is the first JetBrains Academy project I have encountered that has Gradle configuration as part of the project.
+The project introduced Gradle. It is the first JetBrains Academy project I have encountered that has Gradle configuration as part of the project.
 
-This project also introduced JUnit. It was not covered in the project, but I also added Mockito to allow mocking of some data layer classes.
+The project also introduced JUnit. It was not covered in the project, but I also added Mockito to allow mocking of some data layer classes.
 
 ## Notes
 
@@ -44,6 +44,12 @@ test {
 ```
 
 When run, the application is missing some prompts to give better context of what mode it is in. The behavior is as specified in the requirements and needed to be this way to pass the automated testing.
+
+The application can be started with the following command:
+
+```
+./gradlew --console plain run
+```
 
 Here is an example session:
 
